@@ -11,20 +11,20 @@ class Stop{
     return this.location;
   }
 
-  public int spaceCount(){
-    int count = 0;
-    for(Spaces spaces : availability){
-      if(spaces !null){
-        count++
-      }
-    }
-    return count;
-  }
+  // public int spaceCount(){
+  //   int count = 0;
+  //   for(Spaces spaces : availability){
+  //     if(spaces !=null){
+  //       count++;
+  //     }
+  //   }
+  //   return count;
+  // }
 
 
 
 
 
 
-  
+
 }

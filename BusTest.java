@@ -43,4 +43,10 @@ public class BusTest {
     assertEquals(true, bus.isBusFull());
   }
 
+  // @Test
+  // public void shouldEmptyBusAfterDisembarking(){
+  //   bus.pickUp(people);
+  //   bus.disembark();
+  //   assertEquals(0, bus.passengerCount());
+  // }
 }

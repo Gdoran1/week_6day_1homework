@@ -38,4 +38,10 @@ class Bus{
   public boolean isBusFull(){
     return passengerCount() == seats.length;
   }
+
+  // public void disembarking(){
+  //   for (int i = 0; i < seats.length; i++) {
+  //     seats[i] = null;
+  //   }
+  // }
 }
