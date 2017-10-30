@@ -23,4 +23,16 @@ public class BusTest {
     int number = bus.getRouteNumber();
     assertEquals(25, number);
   }
+
+  @Test
+  public void busStartsEmpty(){
+    assertEquals(0, bus.passengerCount());
+  }
+
+  @Test
+  public void canPickUpPassenger(){
+    bus.pickUp(people);
+    assertEquals(1, bus.passengerCount());
+  }
+
 }

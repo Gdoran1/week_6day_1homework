@@ -16,4 +16,22 @@ class Bus{
   public int getRouteNumber(){
     return this.number;
   }
+
+  public int passengerCount(){
+    int count = 0;
+    for(People people : seats){
+      if(people != null) {
+        count++;
+      }
+    }
+    return count;
+  }
+
+  public void pickUp(People people) {
+    // if (isBusFull()) {
+    //   return;
+    // }
+    int passengerCount = passengerCount();
+    seats[passengerCount] = people;
+  }
 }
