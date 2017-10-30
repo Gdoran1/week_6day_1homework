@@ -34,4 +34,8 @@ class Bus{
     int passengerCount = passengerCount();
     seats[passengerCount] = people;
   }
+
+  public boolean isBusFull(){
+    return passengerCount() == seats.length;
+  }
 }
