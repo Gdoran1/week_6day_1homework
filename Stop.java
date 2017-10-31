@@ -1,30 +1,30 @@
 class Stop{
   private String location;
-  // private Spaces[] availability;
+  private Person[] space;
 
   public Stop(String location) {
   this.location = location;
-  // this.availability = new Spaces[10];
+  this.space = new Person[10];
   }
 
   public String getLocation(){
     return this.location;
   }
 
-  // public int spaceCount(){
-  //   int count = 0;
-  //   for(Spaces spaces : availability){
-  //     if(spaces !=null){
-  //       count++;
-  //     }
-  //   }
-  //   return count;
-  // }
+  public int peopleCount(){
+    int count = 0;
+    for(Person person : space){
+      if(person !=null){
+        count++;
+      }
+    }
+    return count;
+  }
 
 
 
 
 
 
-
+//
 }

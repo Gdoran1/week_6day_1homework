@@ -39,9 +39,9 @@ class Bus{
     return passengerCount() == seats.length;
   }
 
-  // public void disembarking(){
-  //   for (int i = 0; i < seats.length; i++) {
-  //     seats[i] = null;
-  //   }
-  // }
+  public void getoff(){
+    for (int i = 0; i < seats.length; i++) {
+      seats[i] = null;
+    }
+  }
 }

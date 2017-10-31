@@ -17,4 +17,15 @@ public class StopTest {
     String location = stop.getLocation();
     assertEquals("Haymarket", location);
   }
+
+  @Test
+  public void stopStartsEmpty(){
+    assertEquals(0, stop.peopleCount());
+  }
+
+  // @Test
+  // public void hasSpace(){
+  //   assertEquals(0, stop.space());
+  // }
+
 }
